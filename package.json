@@ -1,0 +1,8 @@
+{
+  "name": "nolegitsell-miniapp-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "noLegitSell Telegram Mini App + simple bot launcher",
+  "scripts": {"start":"node bot.js"},
+  "engines": {"node": ">=20"}
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>noLegitSell — Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span>no</span>LegitSell</div>
+      <button class="menu-btn ripple" id="menuBtn" aria-label="Открыть меню" aria-expanded="false">
+        <i></i><i></i><i></i>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">СТИЛЬНЫЕ ВЕЩИ,<br>КОТОРЫЕ ТЫ ИСКАЛ</div>
+          <div class="accent-line"></div>
+          <h1><span>no</span>LegitSell</h1>
+          <h2>Стильные вещи,<br>которые ты искал</h2>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="assets/hero.png" alt="Одежда noLegitSell" />
+        </div>
+      </section>
+
+      <div class="divider" aria-hidden="true"></div>
+
+      <section class="actions">
+        <a class="action-card ripple" href="https://m.avito.ru/brands/d8422cb248081a4add838dad5fc61e0a?src=sharing" target="_blank" rel="noopener">
+          <div class="action-icon bag">⌂</div>
+          <div class="action-text"><strong>Способы заказа</strong><span>Выберите удобный способ и оформите заказ</span></div>
+          <div class="arrow">→</div>
+        </a>
+
+        <a class="action-card ripple" href="https://m.avito.ru/user/bd1b263ccc2ee08b8ab438aa2ee45d4c/profile/all/odezhda_obuv_aksessuary?context=H4sIAAAAAAAA_2SOUW7DIAxA7-ITJEAocU6wUyADLkNLSWVop2ra3Sfa_fXT8rPfIzzhT8PZIlDOwpl6OarvjyvD1tAiNN53ljGoBeFcpHUvfC_87YV3vlON7MPjjXYIZzkuH50vsBV0xs56tWpat4YrwpUy-wGMQ6UQuH6OV8m_hF6ol5rHdnYI_0ZKyXcpOb-KDEI96rNUI9xKGiZjltWdJjtEDuHWWPwXPwO1QghpDsrqGKNinlxwFIx2RIrZLMlE2H7_BgBfUlvBFQEAAA&from=enhanced_seller_rating&iid=8461396209&sellerId=bd1b263ccc2ee08b8ab438aa2ee45d4c#open-reviews-list" target="_blank" rel="noopener">
+          <div class="action-icon chat">•••</div>
+          <div class="action-text"><strong>Отзывы</strong><span>Реальные отзывы наших клиентов</span></div>
+          <div class="arrow">→</div>
+        </a>
+      </section>
+
+      <section class="socials">
+        <div class="social-title"><span></span><h3>Наши соц.сети</h3><span></span></div>
+        <div class="social-row">
+          <a class="social telegram ripple" href="https://t.me/nolegitsell" target="_blank" rel="noopener" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 3.6 18 20c-.3 1.2-1 1.5-2 .9l-5.5-4.1-2.7 2.6c-.3.3-.5.5-1 .5l.4-5.6 10.2-9.2c.4-.4-.1-.6-.6-.2L4.2 13.1l-5.4-1.7c-1.2-.4-1.2-1.2.3-1.8L20.2 2c.9-.3 1.7.2 1.2 1.6Z" transform="translate(1 0)"/></svg>
+          </a>
+          <a class="social vk ripple disabled-social" href="#" aria-label="VK" data-placeholder="VK_LINK">
+            <b>VK</b>
+          </a>
+          <a class="social instagram ripple disabled-social" href="#" aria-label="Instagram" data-placeholder="INSTAGRAM_LINK">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+    <div class="menu-panel">
+      <button class="close-btn ripple" id="closeMenu" aria-label="Закрыть">×</button>
+      <div class="menu-caption">ПОДДЕРЖКА</div>
+      <a class="support-btn ripple" href="https://t.me/DTPMN" target="_blank" rel="noopener">Обратиться за помощью<br>в поддержку <span>→</span></a>
+    </div>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
